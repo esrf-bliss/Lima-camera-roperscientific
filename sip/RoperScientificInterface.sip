@@ -18,6 +18,9 @@ namespace RoperScientific
 
     virtual int getNbHwAcquiredFrames();
 
+  private:
+    Interface(const RoperScientific::Interface&);
+
   };
 
 	
