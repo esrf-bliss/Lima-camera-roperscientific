@@ -9,10 +9,8 @@ namespace RoperScientific
     Camera(int);
     ~Camera();
       
-    int getNbAcquiredFrames() const;
-
     void setNbFrames(int );
-    void getNbFrames(int&);
+    void getNbFrames(int& /Out/);
 	      
     void 	startAcq();	
     void 	stopAcq();
